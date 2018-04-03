@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.qa.Finaltest.VtigerGeneric">
+        <methods>
+          <include name="configAM"/>
+          <include name="configBM"/>
+          <include name="configBM"/>
+          <include name="vtigerTest" invocation-numbers="0 1 2 3"/>
+          <include name="endTest"/>
+          <include name="configAC"/>
+          <include name="configBC"/>
+        </methods>
+      </class> <!-- com.qa.Finaltest.VtigerGeneric -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

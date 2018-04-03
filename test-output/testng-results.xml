@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="69418" started-at="2018-03-29T22:31:42Z" finished-at="2018-03-29T22:32:52Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="69418" started-at="2018-03-29T22:31:42Z" finished-at="2018-03-29T22:32:52Z">
+      <class name="com.qa.Finaltest.VtigerGeneric">
+        <test-method status="PASS" signature="configBC()[pri:0, instance:com.qa.Finaltest.VtigerGeneric@58c1c010]" name="configBC" is-config="true" duration-ms="15565" started-at="2018-03-30T04:01:42Z" finished-at="2018-03-30T04:01:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.qa.Finaltest.VtigerGeneric@58c1c010]" name="configBM" is-config="true" duration-ms="1817" started-at="2018-03-30T04:02:01Z" finished-at="2018-03-30T04:02:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="configBM(java.lang.reflect.Method)[pri:0, instance:com.qa.Finaltest.VtigerGeneric@58c1c010]" name="configBM" is-config="true" duration-ms="12" started-at="2018-03-30T04:02:03Z" finished-at="2018-03-30T04:02:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.Finaltest.VtigerGeneric.vtigerTest(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="vtigerTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.Finaltest.VtigerGeneric@58c1c010]" name="vtigerTest" duration-ms="4887" started-at="2018-03-30T04:02:03Z" data-provider="getData" finished-at="2018-03-30T04:02:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[aa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vtigerTest -->
+        <test-method status="PASS" signature="configAM(org.testng.ITestResult)[pri:0, instance:com.qa.Finaltest.VtigerGeneric@58c1c010]" name="configAM" is-config="true" duration-ms="1" started-at="2018-03-30T04:02:08Z" finished-at="2018-03-30T04:02:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=vtigerTest status=SUCCESS method=VtigerGeneric.vtigerTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.Finaltest.VtigerGeneric@58c1c010] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.qa.Finaltest.VtigerGeneric@58c1c010]" name="configBM" is-config="true" duration-ms="1529" started-at="2018-03-30T04:02:08Z" finished-at="2018-03-30T04:02:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="configBM(java.lang.reflect.Method)[pri:0, instance:com.qa.Finaltest.VtigerGeneric@58c1c010]" name="configBM" is-config="true" duration-ms="1" started-at="2018-03-30T04:02:09Z" finished-at="2018-03-30T04:02:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.Finaltest.VtigerGeneric.vtigerTest(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="vtigerTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.Finaltest.VtigerGeneric@58c1c010]" name="vtigerTest" duration-ms="3493" started-at="2018-03-30T04:02:09Z" data-provider="getData" finished-at="2018-03-30T04:02:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bb]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vtigerTest -->
+        <test-method status="PASS" signature="configAM(org.testng.ITestResult)[pri:0, instance:com.qa.Finaltest.VtigerGeneric@58c1c010]" name="configAM" is-config="true" duration-ms="1" started-at="2018-03-30T04:02:13Z" finished-at="2018-03-30T04:02:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=vtigerTest status=SUCCESS method=VtigerGeneric.vtigerTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.Finaltest.VtigerGeneric@58c1c010] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.qa.Finaltest.VtigerGeneric@58c1c010]" name="configBM" is-config="true" duration-ms="1442" started-at="2018-03-30T04:02:13Z" finished-at="2018-03-30T04:02:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="configBM(java.lang.reflect.Method)[pri:0, instance:com.qa.Finaltest.VtigerGeneric@58c1c010]" name="configBM" is-config="true" duration-ms="1" started-at="2018-03-30T04:02:14Z" finished-at="2018-03-30T04:02:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.Finaltest.VtigerGeneric.vtigerTest(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="vtigerTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.Finaltest.VtigerGeneric@58c1c010]" name="vtigerTest" duration-ms="3407" started-at="2018-03-30T04:02:14Z" data-provider="getData" finished-at="2018-03-30T04:02:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[cc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vtigerTest -->
+        <test-method status="PASS" signature="configAM(org.testng.ITestResult)[pri:0, instance:com.qa.Finaltest.VtigerGeneric@58c1c010]" name="configAM" is-config="true" duration-ms="1" started-at="2018-03-30T04:02:18Z" finished-at="2018-03-30T04:02:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=vtigerTest status=SUCCESS method=VtigerGeneric.vtigerTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.Finaltest.VtigerGeneric@58c1c010] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.qa.Finaltest.VtigerGeneric@58c1c010]" name="configBM" is-config="true" duration-ms="1378" started-at="2018-03-30T04:02:18Z" finished-at="2018-03-30T04:02:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="configBM(java.lang.reflect.Method)[pri:0, instance:com.qa.Finaltest.VtigerGeneric@58c1c010]" name="configBM" is-config="true" duration-ms="1" started-at="2018-03-30T04:02:19Z" finished-at="2018-03-30T04:02:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.Finaltest.VtigerGeneric.vtigerTest(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="vtigerTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.Finaltest.VtigerGeneric@58c1c010]" name="vtigerTest" duration-ms="3497" started-at="2018-03-30T04:02:19Z" data-provider="getData" finished-at="2018-03-30T04:02:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vtigerTest -->
+        <test-method status="PASS" signature="configAM(org.testng.ITestResult)[pri:0, instance:com.qa.Finaltest.VtigerGeneric@58c1c010]" name="configAM" is-config="true" duration-ms="1" started-at="2018-03-30T04:02:22Z" finished-at="2018-03-30T04:02:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=vtigerTest status=SUCCESS method=VtigerGeneric.vtigerTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.Finaltest.VtigerGeneric@58c1c010] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.qa.Finaltest.VtigerGeneric@58c1c010]" name="configBM" is-config="true" duration-ms="1444" started-at="2018-03-30T04:02:22Z" finished-at="2018-03-30T04:02:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="configBM(java.lang.reflect.Method)[pri:0, instance:com.qa.Finaltest.VtigerGeneric@58c1c010]" name="configBM" is-config="true" duration-ms="1" started-at="2018-03-30T04:02:24Z" finished-at="2018-03-30T04:02:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.Finaltest.VtigerGeneric.vtigerTest(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="vtigerTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.Finaltest.VtigerGeneric@58c1c010]" name="vtigerTest" duration-ms="26336" started-at="2018-03-30T04:02:24Z" data-provider="getData" finished-at="2018-03-30T04:02:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vtigerTest -->
+        <test-method status="PASS" signature="configAM(org.testng.ITestResult)[pri:0, instance:com.qa.Finaltest.VtigerGeneric@58c1c010]" name="configAM" is-config="true" duration-ms="0" started-at="2018-03-30T04:02:50Z" finished-at="2018-03-30T04:02:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=vtigerTest status=SUCCESS method=VtigerGeneric.vtigerTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.Finaltest.VtigerGeneric@58c1c010] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:com.qa.Finaltest.VtigerGeneric@58c1c010]" name="configAC" is-config="true" duration-ms="66" started-at="2018-03-30T04:02:50Z" finished-at="2018-03-30T04:02:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.qa.Finaltest.VtigerGeneric@58c1c010]" name="endTest" is-config="true" duration-ms="1153" started-at="2018-03-30T04:02:50Z" finished-at="2018-03-30T04:02:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.qa.Finaltest.VtigerGeneric -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

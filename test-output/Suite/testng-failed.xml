@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.qa.Finaltest.Test1">
+        <methods>
+          <include name="BTest"/>
+          <include name="configBM"/>
+          <include name="ATest"/>
+          <include name="titleTest"/>
+          <include name="endTest"/>
+          <include name="configBC"/>
+        </methods>
+      </class> <!-- com.qa.Finaltest.Test1 -->
+      <class name="com.qa.Finaltest.Test2">
+        <methods>
+          <include name="DTest"/>
+          <include name="endTest"/>
+          <include name="CTest"/>
+        </methods>
+      </class> <!-- com.qa.Finaltest.Test2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
