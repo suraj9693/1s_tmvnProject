@@ -1,0 +1,11 @@
+com\qa\genericLib\ExcellLib.class
+com\qa\genericLib\Constants.class
+com\qa\objRepository\Login.class
+com\qa\objRepository\CapturingAllTrendingNewsInYahoo.class
+com\qa\genericLib\SampleListener.class
+com\qa\objRepository\FindBysUse_ObjRepsitry.class
+com\qa\objRepository\Logout.class
+com\qa\objRepository\VtigerWithGenericData.class
+com\qa\genericLib\BaseClass.class
+com\qa\genericLib\WebDriverCommLib.class
+com\qa\genericLib\WebDriverScreenshot.class
