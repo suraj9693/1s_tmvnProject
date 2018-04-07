@@ -5,7 +5,6 @@
     <classes>
       <class name="com.qa.Finaltest.Test1"/>
       <class name="com.qa.Finaltest.VtigerGeneric"/>
-      <class name="com.qa.Finaltest.Test2"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
