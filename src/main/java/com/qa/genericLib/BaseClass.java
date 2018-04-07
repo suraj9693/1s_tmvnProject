@@ -20,9 +20,9 @@ public static WebDriver d;
 public static ExtentReports extent;
 public static ExtentTest test;
 static{
-	Calendar calendar=Calendar.getInstance();
-	SimpleDateFormat formater=new SimpleDateFormat("dd_MM_yyyy_HH_mm_ss");
-	extent=new ExtentReports("./src/main/resources/ExtentReport/extentReport_"+formater.format(calendar.getTime())+".html", true);
+	Calendar c=Calendar.getInstance();
+	SimpleDateFormat f=new SimpleDateFormat("dd_MM_yyyy_HH_mm_ss");
+	extent=new ExtentReports("./src/main/resources/ExtentReport/extentReport_"+f.format(c.getTime())+".html", true);
 }
 public void getTest(ITestResult result){
 	if(result.getStatus()==ITestResult.SUCCESS){
