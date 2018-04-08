@@ -4,12 +4,15 @@ import java.lang.reflect.Method;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
 
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
@@ -49,11 +52,22 @@ public void endTest(){
 	extent.endTest(test);
 	extent.flush();
 }
+@Parameters("browser")
 @BeforeClass
-public void configBC(){
+public void configBC(String bName){
+	if(bName.equals("firefox")) {
 	System.out.println("Running BeforeClass");
 	System.setProperty("webdriver.gecko.driver", Constants.firefoxServer);
 	d=new FirefoxDriver();
+	}else if(bName.equals("chrome")) {
+		System.out.println("Running BeforeClass");
+		System.setProperty("webdriver.chrome.driver", Constants.chromeServer);
+		d=new ChromeDriver();
+	}else if(bName.equals("edge")) {
+		System.out.println("Running BeforeClass");
+		System.setProperty("webdriver.edge.driver", Constants.edgeServer);
+		d=new EdgeDriver();
+	}
 }
 @BeforeMethod
 public void configBM(){
