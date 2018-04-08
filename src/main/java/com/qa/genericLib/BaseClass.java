@@ -52,6 +52,7 @@ public void endTest(){
 @BeforeClass
 public void configBC(){
 	System.out.println("Running BeforeClass");
+	System.setProperty("webdriver.gecko.driver", Constants.firefoxServer);
 	d=new FirefoxDriver();
 }
 @BeforeMethod
