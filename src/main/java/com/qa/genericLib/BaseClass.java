@@ -7,6 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.phantomjs.PhantomJSDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
@@ -52,23 +53,33 @@ public void endTest(){
 	extent.endTest(test);
 	extent.flush();
 }
-@Parameters("browser")
 @BeforeClass
-public void configBC(String bName){
-	if(bName.equals("firefox")) {
+public void configBC() {
 	System.out.println("Running BeforeClass");
-	System.setProperty("webdriver.gecko.driver", Constants.firefoxServer);
-	d=new FirefoxDriver();
-	}else if(bName.equals("chrome")) {
-		System.out.println("Running BeforeClass");
-		System.setProperty("webdriver.chrome.driver", Constants.chromeServer);
-		d=new ChromeDriver();
-	}else if(bName.equals("edge")) {
-		System.out.println("Running BeforeClass");
-		System.setProperty("webdriver.edge.driver", Constants.edgeServer);
-		d=new EdgeDriver();
-	}
+	System.setProperty("phantomjs.binary.path", Constants.phantomjsServer);
+	d=new PhantomJSDriver();
 }
+	
+//@Parameters("browser")
+//@BeforeClass
+//public void configBC(String bName){
+//	if(bName.equals("firefox")) {
+//	System.out.println("Running BeforeClass");
+//	System.setProperty("webdriver.gecko.driver", Constants.firefoxServer);
+//	d=new FirefoxDriver();
+//	}else if(bName.equals("chrome")) {
+//		System.out.println("Running BeforeClass");
+//		System.setProperty("webdriver.chrome.driver", Constants.chromeServer);
+//		d=new ChromeDriver();
+//	}else if(bName.equals("edge")) {
+//		System.out.println("Running BeforeClass");
+//		System.setProperty("webdriver.edge.driver", Constants.edgeServer);
+//		d=new EdgeDriver();
+//	}else if(bName.equals("phantomjs")) {
+//		System.out.println("Running BeforeClass");
+//		System.setProperty("phantomjs.binary.path", Constants.phantomjsServer);
+//		d=new PhantomJSDriver();
+//	}
 @BeforeMethod
 public void configBM(){
 	System.out.println("Running BeforeMethod");

@@ -8,5 +8,6 @@ String browser="chrome";
 String firefoxServer="./src/main/resources/Resources/geckodriver.exe";
 String chromeServer="./src/main/resources/Resources/chromedriver.exe";
 String edgeServer="./src/main/resources/Resources/MicrosoftWebDriver.exe";
+String phantomjsServer="./src/main/resources/Resources/phantomjs.exe";
 
 }
