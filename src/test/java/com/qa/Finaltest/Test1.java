@@ -16,4 +16,8 @@ public void BTest() throws Exception{
 	WebDriverScreenshot we=new WebDriverScreenshot();
 	we.screenshot("Check");
 }
+@Test
+public void AATest() {
+	System.out.println("Suraj");
+}
 }
